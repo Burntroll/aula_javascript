@@ -14,3 +14,11 @@ function trocar(elemento) {
 function voltar(elemento) {
     elemento.innerHTML = "Passe o mouse aqui";
 }
+
+function load() {
+    alert("Página carregada");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
